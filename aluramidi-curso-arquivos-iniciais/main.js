@@ -8,7 +8,7 @@
 let contador = 0;
 
 
-while(contador < 9) {
+while(contador < listaDeTeclas. length) {
     listaDeTeclas[0].onclick = tocaSom;
 
 contador = contador + 1;
