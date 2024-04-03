@@ -1,4 +1,4 @@
- function tocaSomPom () {
+ function tocaSomPom (idElementoAudio) {
     document.querySelector('#som_recla_pom').play();
  }
 
@@ -13,6 +13,6 @@ while(contador < 9) {
 
 contador = contador + 1;
 
-console.log()
+console.log(contador)
    
 }
